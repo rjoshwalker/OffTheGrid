@@ -1,0 +1,67 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="display_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <!--
+         NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it.
+    -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference 
+        android:title="@string/pref_title_email_address" 
+        android:key="email_address"
+    	android:inputType="textEmailAddress"/>
+    <EditTextPreference 
+        android:title="@string/pref_title_imap_server" 
+        android:key="imap_server"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+    <EditTextPreference 
+        android:key="imap_port" 
+        android:title="@string/pref_title_imap_port" 
+        android:defaultValue="993"
+        android:inputType="number"/>
+    <EditTextPreference 
+        android:title="@string/pref_title_imap_user" 
+        android:key="imap_user"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true" />
+    <EditTextPreference 
+        android:title="@string/pref_title_imap_pass" 
+        android:key="imap_pass"
+        android:inputType="textVisiblePassword" />
+    <EditTextPreference 
+        android:title="@string/pref_title_smtp_server" 
+        android:key="smtp_server"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+    <EditTextPreference 
+        android:title="@string/pref_title_smtp_port" 
+        android:key="smtp_port" 
+        android:defaultValue="587"
+        android:inputType="number"/>
+    <EditTextPreference 
+        android:title="@string/pref_title_smtp_user" 
+        android:key="smtp_user"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"/>
+    <EditTextPreference 
+        android:title="@string/pref_title_smtp_pass" 
+        android:key="smtp_pass"
+        android:inputType="textVisiblePassword"/>
+
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Off The Grid</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_list">Off The Grid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_my_fingerprint">My Fingerprint</string>
+    <string name="action_add_contact">Add Contact</string>
+    <string name="dialog_add_contact">Enter contact email address. Your contact will be asked to verify your public key.</string>
+    <string name="action_send_key">Send Public Key</string>
+    <string name="dialog_send_key">Send my public key to this contact.</string>
+    <string name="dialog_contact">Contact</string>
+    <string name="action_message">Off The Grid</string>
+    <string name="action_verify">Verify Contact</string>
+    <string name="dialog_verify">Press OK to verify the public key of this contact</string>
+    <string name="action_fingerprint">Fingerprint</string>
+    <string name="dialog_fingerprint">Fingerprint of contact </string>
+    <string name="action_warn_settings">Configuration</string>
+    <string name="dialog_warn_settings">Please enter your gmail username and password below. If you want to use another email, press cancel and go to settings.</string>
+    <string name="dialog_gmail_address">Gmail Address</string>
+    <string name="dialog_gmail_pass">Gmail Password</string>
+    <string name="action_remove">Remove Contact</string>
+    <string name="dialog_remove">Do you want to remove the contact</string>
+    <string name="dialog_remove_self">Can not remove self from contacts</string>
+    <string name="action_remove_self">Can not remove</string>
+    <string name="title_activity_main">Off The Grid</string>
+    <string name="action_add_group">Add Group</string>
+    <string name="dialog_add_group">Enter group name. A new group will be created.</string>
+    <string name="action_set_member">Set Members</string>
+    <string name="action_set_name">Set Group Name</string>
+    <string name="dialog_group_name">Group Name</string>
+    <string name="action_group_name">Group Name</string>
+    <string name="action_select_contact">Select Contact</string>
+	
+    <string name="action_show_license">Show License</string>
+</resources>
